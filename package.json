@@ -7,13 +7,17 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "snyk-protect": "snyk protect",
+    "prepare": "npm run snyk-protect"
   },
   "author": "CodeMix",
   "license": "ISC",
   "dependencies": {
     "react": "^16.2.0",
-    "react-dom": "^16.2.0",
-    "react-scripts": "^1.1.1"
-  }
+    "react-dom": "^16.4.2",
+    "react-scripts": "^3.0.0",
+    "snyk": "^1.244.0"
+  },
+  "snyk": true
 }
