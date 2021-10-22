@@ -8,7 +8,7 @@
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject",
-    "snyk-protect": "snyk protect",
+    "snyk-protect": "snyk-protect",
     "prepare": "npm run snyk-protect"
   },
   "author": "CodeMix",
@@ -17,7 +17,7 @@
     "react": "^16.2.0",
     "react-dom": "^16.4.2",
     "react-scripts": "^3.0.0",
-    "snyk": "^1.244.0"
+    "@snyk/protect": "latest"
   },
   "snyk": true
 }
